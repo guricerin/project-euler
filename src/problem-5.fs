@@ -31,5 +31,5 @@ let main _ =
     solve()
     sw.Stop()
     printfn "%d msec" sw.ElapsedMilliseconds
-    // 270msec いや、見苦しいコードやな
+    // 81msec
     0 // return an integer exit code
