@@ -29,4 +29,5 @@ let main _ =
     solve()
     sw.Stop()
     printfn "%d msec" sw.ElapsedMilliseconds
+    // 84msec
     0 // return an integer exit code
