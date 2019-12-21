@@ -36,7 +36,7 @@ module Util =
 
 let solve() =
     seq {
-        for a in 2..1000 do
+        for a in 2..10000 do
             let a = int64 a
             let da = Util.divisors a |> Array.sum |> fun x -> x - a
             if a < da then
